@@ -1,0 +1,17 @@
+Linear search algorithm check every value in the list one by one and compare it with
+the target value if the value is found it returns the index otherwise returns -1 or some other
+special value
+
+numbers = [5, 3, 4, 6, 9]
+
+FUNCTION find_target(list, target)
+    FOR index form 0 to LENGTH of list - 1
+        IF list[index] == target
+            RETURN the index
+    RETURN -1
+
+This will return 1 (which is the index at which the number is in the list)
+find_target(numbers, 3)
+
+This will return -1 (-1 means that the target is not found)
+find_target(numbers, 7)
