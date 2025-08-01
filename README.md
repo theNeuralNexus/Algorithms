@@ -13,3 +13,7 @@ Step by step instructions to solve problems
     - Find student score
     - Find the first item out of stock
     - Find the first crowded session
+
+# - Binary Search Algorithm
+### Problems:
+    - Find book in a catalog by ID
